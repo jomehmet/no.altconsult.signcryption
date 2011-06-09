@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="signcryption-a-s" id="{UMLID=_UUsFsH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption}" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledY="-9" tag="10" key="3230303730363239206E6F2E616C74636F6E73756C742E7369676E6372797074696F6E">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="Unsigncrypt" location="714,699" size="149,197" timstampe="374" stereotype="" id="{UMLID=_b4q0gn5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/Unsigncrypt}" runTimeClassModel="privateKeyReceiver,c,publicKeySender,Unsigncrypt(Ljava.math.BigInteger;Ljava.math.BigInteger;[BLno.altconsult.signcryption.SigncryptionSettings;),getStringMessage(),isAccepted(),calculateSecrets(),Unsigncrypt(Ljava.math.BigInteger;Ljava.math.BigInteger;Lno.altconsult.signcryption.SigncryptPacket;Lno.altconsult.signcryption.SigncryptionSettings;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,59">
+      <children xsi:type="editmodel:AttributeEditModel" name="c" size="41,21" id="{UMLID=_dBzm0H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="publicKeySender" size="111,16" id="{UMLID=_dB0N4H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="privateKeyReceiver" size="124,16" id="{UMLID=_dByYsH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Unsigncrypt" size="98,16" id="{UMLID=_dB3RMX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Unsigncrypt" size="98,16" id="{UMLID=_dB67kH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateSecrets" size="121,16" id="{UMLID=_dB2DEH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStringMessage" size="127,16" id="{UMLID=_dB2qIH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAccepted" size="95,16" id="{UMLID=_dB008X5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_cWMeAH5mEeCu2ZlCAT7yhg}" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_cWMeAX5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="731,677" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="settings" location="204,169" id="{UMLID=_cSjUIX5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="544,581" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# settings" location="544,553" size="47,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_dBs5IH5mEeCu2ZlCAT7yhg}" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="220,375"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="Cryptogram" location="938,335" size="187,341" timstampe="4331" stereotype="" id="{UMLID=_cCs6QH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/Cryptogram}" runTimeClassModel="main([Ljava.lang.String;),nrOfLengthBytes,aes,getEncrypted(),Cryptogram([BI),setMsgLength(I),cleartext,encrypted,getCleartextAsUTF8String(),getNrOfLengthBytes(),setKey([B),Cryptogram([BI[B),setCleartext([B),msgLength,Cryptogram(Ljava.lang.String;I[B),key">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,113">
+      <children xsi:type="editmodel:AttributeEditModel" name="encrypted" size="78,16" id="{UMLID=_dMU0wH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cleartext" size="71,16" id="{UMLID=_dMX4EX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nrOfLengthBytes" size="112,16" id="{UMLID=_dMWp8H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="msgLength" size="82,16" id="{UMLID=_dMXRAH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="key" size="46,16" id="{UMLID=_dMZGMH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aes" size="53,21" id="{UMLID=_0-6xIH5vEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="165,180">
+      <children xsi:type="editmodel:MethodEditModel" name="setKey" size="74,16" id="{UMLID=_dMcJgX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Cryptogram" size="96,16" id="{UMLID=_dMksYH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Cryptogram" size="96,16" id="{UMLID=_dMelwX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" size="96,16" id="{UMLID=_dMga8n5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEncrypted" size="104,16" id="{UMLID=_dMdXoX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Cryptogram" size="96,16" id="{UMLID=_dMaUUH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCleartext" size="98,16" id="{UMLID=_dMiQIH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCleartextAsUTF8String" size="165,16" id="{UMLID=_dMlTcn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNrOfLengthBytes" size="139,16" id="{UMLID=_dMbicH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMsgLength" size="108,16" id="{UMLID=_dMmhkX5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_0_2lQH5vEeCu2ZlCAT7yhg}" source="//@children.1" target="//@children.7" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="93,341" id="{UMLID=_0_2lQX5vEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1037,683" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="aes" location="91,0" id="{UMLID=_0-6xIH5vEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1017,692" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- aes" location="1037,692" size="25,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3" name="Signcrypt" location="711,14" size="156,251" timstampe="1030" stereotype="" id="{UMLID=_b4sps35mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/Signcrypt}" runTimeClassModel="message,c,setNewNounce(),Pb,getSignCryptPacket(),nounce,privateKeySender,Signcrypt(Ljava.math.BigInteger;Ljava.math.BigInteger;Ljava.lang.String;Ljava.math.BigInteger;Lno.altconsult.signcryption.SigncryptionSettings;),calculate(),Signcrypt(Ljava.math.BigInteger;Lorg.bouncycastle.math.ec.ECPoint;Ljava.lang.String;Lno.altconsult.signcryption.SigncryptionSettings;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,95">
+      <children xsi:type="editmodel:AttributeEditModel" name="Pb" size="41,16" id="{UMLID=_dhhosH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="privateKeySender" size="116,16" id="{UMLID=_dhi20X5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="message" size="73,16" id="{UMLID=_dhfzgH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="c" size="41,21" id="{UMLID=_dhhBoH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nounce" size="65,16" id="{UMLID=_dhiPwH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Signcrypt" size="86,16" id="{UMLID=_dhjd4X5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Signcrypt" size="86,16" id="{UMLID=_dhpkgX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSignCryptPacket" size="134,16" id="{UMLID=_dhnvUH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculate" size="83,16" id="{UMLID=_dhsn0X5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNewNounce" size="115,16" id="{UMLID=_dhnIQX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" size="77,16" id="{UMLID=_dho9cH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_cWMeAH5mEeCu2ZlCAT7yhg}" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,241" id="{UMLID=_cWMeAX5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="697,233" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="settings" location="194,0" id="{UMLID=_cSjUIX5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="535,384" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# settings" location="474,384" size="47,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_dhZs4H5mEeCu2ZlCAT7yhg}" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.1/@children.1" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.6/@sourceConnections.0" name="FieldType" location="384,601" size="103,124" timstampe="18" id="{UMLID=_b4rbkX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/FieldType}" runTimeClassModel="P192%,P384%,EXAMPLE%,P256%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,72">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="P192" size="53,16" id="{UMLID=_AsyckH5nEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="P256" size="53,16" id="{UMLID=_AsxOcH5nEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="P384" size="53,16" id="{UMLID=_Asx1gH5nEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EXAMPLE" size="76,16" id="{UMLID=_AsyckX5nEeCu2ZlCAT7yhg}"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" enumerationClassMode="false" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SigncryptPacket" location="713,336" size="151,292" timstampe="3280" stereotype="" id="{UMLID=_b4spsX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/SigncryptPacket}" runTimeClassModel="curve,makeBytes(),fetchFromBytes(),c,SigncryptPacket(),settings,packetAsBytes,SigncryptPacket([BLno.altconsult.signcryption.SigncryptionSettings;Lorg.bouncycastle.math.ec.ECCurve;),toString(),s,R,getPacketAsBytes(),SigncryptPacket(Lno.altconsult.signcryption.Cryptogram;Lorg.bouncycastle.math.ec.ECPoint;Ljava.math.BigInteger;Lno.altconsult.signcryption.SigncryptionSettings;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,118">
+      <children xsi:type="editmodel:AttributeEditModel" name="curve" size="57,16" id="{UMLID=_du9nwH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="c" size="41,21" id="{UMLID=_du_c8H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="R" size="36,16" id="{UMLID=_dvArEH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="s" size="35,16" id="{UMLID=_du-14H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="settings" size="73,21" id="{UMLID=_dvAEAH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="packetAsBytes" size="103,16" id="{UMLID=_dvBSIH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,126">
+      <children xsi:type="editmodel:MethodEditModel" name="SigncryptPacket" size="118,16" id="{UMLID=_dvCgQX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SigncryptPacket" size="118,16" id="{UMLID=_dvE8gn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SigncryptPacket" size="118,16" id="{UMLID=_dvIm4n5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="makeBytes" size="93,16" id="{UMLID=_dvDuYX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPacketAsBytes" size="129,16" id="{UMLID=_dvH_0H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fetchFromBytes" size="117,16" id="{UMLID=_dvLDIH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" size="77,16" id="{UMLID=_dvDHUH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_dxrkkH5mEeCu2ZlCAT7yhg}" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="151,145" id="{UMLID=_dxrkkX5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="871,459" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="c" location="0,146" id="{UMLID=_du_c8H5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.4/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.4/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="924,487" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ c" location="915,459" size="15,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_dxsLoH5mEeCu2ZlCAT7yhg}" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,159" id="{UMLID=_dxsLoX5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="699,473" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="settings" location="204,89" id="{UMLID=_dvAEAH5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.4/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.4/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="544,501" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ settings" location="544,473" size="47,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_dDlIcH5mEeCu2ZlCAT7yhg}" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="c" location="75,292" id="{UMLID=_dBzm0H5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="775,635" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- c" location="795,635" size="13,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="74,0" id="{UMLID=_dDlIcX5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.4/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="795,677" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_djq9wH5mEeCu2ZlCAT7yhg}" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="c" location="75,0" id="{UMLID=_dhhBoH5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="775,315" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- c" location="795,315" size="13,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="77,251" id="{UMLID=_djq9wX5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.4/@sourceConnections.3/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="795,271" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.2/@sourceConnections.1" name="AbstractSigncrypt" location="27,378" size="220,431" timstampe="785" stereotype="" id="{UMLID=_cSC90H5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt}" runTimeClassModel="K1,curve,K2,SHA256asAbsBigInt(Ljava.lang.String;),G,settings,setP192Parameters(),fromHex(Ljava.lang.String;),ConcatECPoints(Lorg.bouncycastle.math.ec.ECPoint;),curveEquation(),toString(),initFieldExample(),PointName(Lorg.bouncycastle.math.ec.ECPoint;Ljava.lang.String;),r,q,printField(I),setP256Parameters(),AbstractSigncrypt(Lno.altconsult.signcryption.SigncryptionSettings;),setP384Parameters(),SHA256asBytes(Ljava.lang.String;),secureRandomUniformBigInteger()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,131">
+      <children xsi:type="editmodel:AttributeEditModel" name="curve" size="57,16" id="{UMLID=_cSd0kH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="q" size="35,16" id="{UMLID=_cSitEX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="G" size="37,16" id="{UMLID=_cSg34X5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="K1" size="42,16" id="{UMLID=_cScmcH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="K2" size="42,16" id="{UMLID=_cSfpw35mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="r" size="33,16" id="{UMLID=_cSiGAn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="settings" size="73,21" id="{UMLID=_cSjUIX5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="198,252">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractSigncrypt" size="127,16" id="{UMLID=_cSj7MX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#AbstractSigncrypt(Lno.altconsult.signcryption.SigncryptionSettings;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SHA256asAbsBigInt" size="138,16" id="{UMLID=_cSseEX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#SHA256asAbsBigInt(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SHA256asBytes" size="120,16" id="{UMLID=_cSmXcX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#SHA256asBytes(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initFieldExample" size="115,16" id="{UMLID=_cSmXcH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#initFieldExample()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ConcatECPoints" size="116,16" id="{UMLID=_cSuTQH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#ConcatECPoints(Lorg.bouncycastle.math.ec.ECPoint;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="curveEquation" size="109,16" id="{UMLID=_cSoMoX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#curveEquation()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" size="77,16" id="{UMLID=_cSr3AH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#toString()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PointName" size="90,16" id="{UMLID=_cSxWkX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#PointName(Lorg.bouncycastle.math.ec.ECPoint;Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printField" size="83,16" id="{UMLID=_cSpawX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#printField(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setP192Parameters" size="134,16" id="{UMLID=_cSlwYH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#setP192Parameters()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setP256Parameters" size="134,16" id="{UMLID=_cSpawH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#setP256Parameters()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setP384Parameters" size="134,16" id="{UMLID=_cSlJUX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#setP384Parameters()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fromHex" size="81,16" id="{UMLID=_cSwIcH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#fromHex(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="secureRandomUniformBigInteger" size="198,16" id="{UMLID=_cSqo4H5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AbstractSigncrypt#secureRandomUniformBigInteger()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_cWMeAH5mEeCu2ZlCAT7yhg}" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="220,117" id="{UMLID=_cWMeAX5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="253,473" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="settings" location="0,89" id="{UMLID=_cSjUIX5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="320,501" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# settings" location="279,473" size="47,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.0/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.5/@sourceConnections.0" name="SigncryptionSettings" location="334,406" size="204,179" timstampe="730" stereotype="" id="{UMLID=_b4sCoX5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/SigncryptionSettings}" runTimeClassModel="getVersionByteSize(),SigncryptionSettings(BBLno.altconsult.signcryption.FieldType;I),ft,numberOfMessageLengthBytes,version,appPreamble,getAppPreambleByteSize()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="182,77">
+      <children xsi:type="editmodel:AttributeEditModel" name="appPreamble" size="91,16" id="{UMLID=_dslpMH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="version" size="65,16" id="{UMLID=_dslCIH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ft" size="42,21" id="{UMLID=_dsjM8H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numberOfMessageLengthBytes" size="182,16" id="{UMLID=_dskbEH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,54">
+      <children xsi:type="editmodel:MethodEditModel" name="SigncryptionSettings" size="139,16" id="{UMLID=_dsoFcX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppPreambleByteSize" size="162,16" id="{UMLID=_dsmQQH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVersionByteSize" size="135,16" id="{UMLID=_dsm3Un5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_ds-DsH5mEeCu2ZlCAT7yhg}" source="//@children.6" target="//@children.3" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="101,179" id="{UMLID=_ds-DsX5mEeCu2ZlCAT7yhg}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="441,591" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ft" location="51,0" id="{UMLID=_dsjM8H5mEeCu2ZlCAT7yhg}" multiplicityLabel="//@children.6/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="421,579" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ ft" location="441,579" size="16,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="AES" location="940,714" size="184,264" timstampe="2094" stereotype="" id="{UMLID=_cCT4sH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/AES}" runTimeClassModel="createAESKey(),K2,symmetricBlockCipher,encrypt([BZ),AES([B),aes_key,UploadCipher(),decrypt([BLno.altconsult.signcryption.Cryptogram;),AES_KEY_LENGTH,encryptSizeAndMessage(Ljava.lang.String;I),symmetricBlockSize,encrypt(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="AES_KEY_LENGTH" size="123,16" id="{UMLID=_cCgF8n5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aes_key" size="70,16" id="{UMLID=_cCeQwn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="symmetricBlockCipher" size="135,16" id="{UMLID=_cCb0gH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="symmetricBlockSize" size="125,16" id="{UMLID=_cCgtAH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="K2" size="42,16" id="{UMLID=_cCZ_UH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,126">
+      <children xsi:type="editmodel:MethodEditModel" name="AES" size="60,16" id="{UMLID=_cCpP4n5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="UploadCipher" size="104,16" id="{UMLID=_cCmzoH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAESKey" size="111,16" id="{UMLID=_cCmMkn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encrypt" size="77,16" id="{UMLID=_cCqeAX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encrypt" size="77,16" id="{UMLID=_cChUEH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encryptSizeAndMessage" size="162,16" id="{UMLID=_cCnasH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrypt" size="77,16" id="{UMLID=_cCkXYX5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Benchmark" location="27,-1" size="116,120" timstampe="111" stereotype="" id="{UMLID=_bOMUIH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/Benchmark}" runTimeClassModel="benchmarks,STOP_Print(Ljava.lang.String;),START(Ljava.lang.String;),STOP(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="benchmarks" size="88,16" id="{UMLID=_bPQEEH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,54">
+      <children xsi:type="editmodel:MethodEditModel" name="START" size="73,16" id="{UMLID=_bPoekH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="STOP_Print" size="94,16" id="{UMLID=_bQCHMH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="STOP" size="67,16" id="{UMLID=_bQD8YH5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Base64Coder" location="1190,337" size="154,318" timstampe="46" stereotype="" id="{UMLID=_ba89wH5mEeCu2ZlCAT7yhg,JavaID=no.altconsult.signcryption/Base64Coder}" runTimeClassModel="decodeString(Ljava.lang.String;),decode(Ljava.lang.String;),systemLineSeparator,encodeLines([B),encode([B),decodeLines(Ljava.lang.String;),encode([BII),decode([CII),encode([BI),map2,map1,Base64Coder(),encodeString(Ljava.lang.String;),decode([C),encodeLines([BIIILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="systemLineSeparator" size="132,16" id="{UMLID=_bbKZIH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="map1" size="55,16" id="{UMLID=_bbJLAH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="map2" size="55,16" id="{UMLID=_bbHV0H5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,216">
+      <children xsi:type="editmodel:MethodEditModel" name="encodeString" size="104,16" id="{UMLID=_bba30H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encodeLines" size="102,16" id="{UMLID=_bbM1YH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encodeLines" size="102,16" id="{UMLID=_bbctAH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encode" size="76,16" id="{UMLID=_bbP4sn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encode" size="76,16" id="{UMLID=_bbmeAX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encode" size="76,16" id="{UMLID=_bbizoX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decodeString" size="104,16" id="{UMLID=_bbLAMH5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decodeLines" size="102,16" id="{UMLID=_bbg-cX5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decode" size="76,16" id="{UMLID=_bbeiMn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decode" size="76,16" id="{UMLID=_bbSU8H5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decode" size="76,16" id="{UMLID=_bbVYQn5mEeCu2ZlCAT7yhg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Base64Coder" size="106,16" id="{UMLID=_bbaQwX5mEeCu2ZlCAT7yhg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="4" showScope="InPackage" properties="wireOptions=2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="1876,1106" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
